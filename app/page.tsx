@@ -6,7 +6,14 @@ const bebasNeue = Bebas_Neue({ weight: '400', subsets: ['latin'] });
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center">
-      <div className="mb-2">
+      {/* Sticky Item List (bg-black removed) */}
+      <div className="fixed top-0 left-0 right-0 text-center p-2 z-10"> 
+        <p className="text-xs text-gray-300 font-mono">
+          CDs | Vinyl | Tapes | DVDs | Posters | Books | Pins | Imports
+        </p>
+      </div>
+
+      <div className="mb-2 mt-12"> 
         <Image
           src="/spinny.png"
           alt="Spin Records logo"
@@ -14,16 +21,16 @@ export default function Home() {
           height={100}
         />
       </div>
-
-      <div className="text-center mb-2">
-        <p className="text-xs text-gray-300 font-mono">
-          CDs | Vinyl | Tapes | DVDs | Posters | Books | Pins | Imports
+    
+      <div className="text-center mb-2"> 
+        <p className={bebasNeue.className} style={{ fontSize: '40px', color: 'white' }}>
+          Carlsbad, CA
+        </p>
+        <p className="text-xs text-gray-300 font-mono"> 
+          Open 7 Days a Week
         </p>
       </div>
 
-      <p className={bebasNeue.className} style={{ fontSize: '40px', color: 'white' }}>
-        Carlsbad, CA
-      </p>
 
       <div className="flex space-x-4 mt-4">
         <a
@@ -48,7 +55,6 @@ export default function Home() {
         </a>
       </div>
 
-      {/* Updated "More" Button */}
       <a
         href="https://linktr.ee/grooveshoppe"
         target="_blank"
@@ -63,7 +69,6 @@ export default function Home() {
     </main>
   );
 }
-
 
 
 

@@ -35,10 +35,22 @@
   padding: 1em;
 }
 html {
-  background-image: url('/back.gif');
+  background-image: url('/back2.gif');
   background-repeat: no-repeat;
   background-size: cover;
   /* Optional: background-attachment: fixed; */
+}
+.item-list {
+  display: flex; /* Enable flexbox */
+  flex-wrap: nowrap; /* Prevent items from wrapping */
+  min-width: 0; /* Allow items to shrink */
+}
+
+.item-list p {
+  flex: 1; /* Distribute space evenly */
+  white-space: nowrap; /* Prevent text wrapping */
+  text-align: center;  /* Optional: center text within each item */
+  margin: 0 5px;       /* Optional: add some spacing between items */
 }
 
 
