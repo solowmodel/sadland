@@ -8,12 +8,12 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-center">
   <div className="fixed top-0 left-0 right-0 text-center p-2 z-10"> 
         <p className="text-xs text-gray-300 font-mono">
-          MAKE CRYPTO GREAT AGAIN
+          PLEASE SAAR
         </p>
       </div>
       <div className="mb-2 mt-12">  
         <Image
-          src="/pepout.png"
+          src="/jeetfrog.jpeg"
           alt="Spin Records logo"
           width={200}
           height={100}
@@ -22,7 +22,7 @@ export default function Home() {
     
       <div className="text-center mb-2"> 
         <p className={bebasNeue.className} style={{ fontSize: '40px', color: 'black' }}>
-          SAD PEPE
+          PLEASE SAAR DO NOT REDEEM
         </p>
       
       </div>
@@ -38,27 +38,9 @@ export default function Home() {
       >
         MINT
       </a>
-      fair launch... no presale... no team allocation
+      ONLY ON PUMP.FUN
 
-      {/* Social Icons */}
-      <div className="flex space-x-4 mt-4"> 
-        <a href="https://www.tiktok.com/@real_sad_pepe" target="_blank" rel="noopener noreferrer">
-          <Image
-            src="/tiktok.png" // Replace with your TikTok icon
-            alt="TikTok"
-            width={32} 
-            height={32} 
-          />
-        </a>
-        <a href="https://x.com/real_sad_pepe" target="_blank" rel="noopener noreferrer">
-          <Image
-            src="/twitter.png" // Replace with your Twitter icon
-            alt="Twitter"
-            width={32} 
-            height={32} 
-          />
-        </a>
-      </div>
+
 
     </main>
   );
