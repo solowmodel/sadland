@@ -8,7 +8,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-center">
   <div className="fixed top-0 left-0 right-0 text-center p-2 z-10"> 
         <p className="text-xs text-gray-300 font-mono">
-          fuck rugs and scammers... were here for the little guy... FOR DA BOYS
+          MAKE CRYPTO GREAT AGAIN
         </p>
       </div>
       <div className="mb-2 mt-12">  
