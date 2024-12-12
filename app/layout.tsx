@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "SPIN",
-  description: "Spin Records",
+  title: "SAD PEPE",
+  description: "DONT GET MAD... GET SAD",
 };
 
 export default function RootLayout({
