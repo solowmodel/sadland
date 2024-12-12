@@ -38,6 +38,7 @@ export default function Home() {
       >
         MINT
       </a>
+      fair launch... no presale... no team allocation
 
       {/* Social Icons */}
       <div className="flex space-x-4 mt-4"> 
