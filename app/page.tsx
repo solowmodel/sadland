@@ -29,7 +29,7 @@ export default function Home() {
   
 
       <a
-        href=""
+        href="https://pump.fun/coin/26h6y6Ki1hE7AKVdXKf5pTuK91c5HyVitJwbroPZpump"
         target="_blank"
         rel="noopener noreferrer"
         className={`
